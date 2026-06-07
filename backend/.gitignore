@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境（项目内创建的）
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量（包含敏感信息，严禁提交！）
+.env
+
+# 日志
+*.log
+
+# 临时文件
+*.bak
+*.tmp
+.DS_Store
+
+# PyInstaller 打包文件
+*.spec
+build/
+dist/

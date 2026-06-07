@@ -1,0 +1,115 @@
+/* ============================================
+   AI 期末私教 — 设计令牌（Design Tokens）
+   所有颜色/间距/字体/圆角/阴影统一管理
+   ============================================ */
+
+:root {
+  /* ── 品牌色 ── */
+  --color-primary: #4f6ef7;
+  --color-primary-light: #6b85fa;
+  --color-primary-dark: #3a54d4;
+  --color-primary-bg: rgba(79, 110, 247, 0.08);
+
+  /* ── 语义色 ── */
+  --color-success: #22c55e;
+  --color-success-bg: rgba(34, 197, 94, 0.1);
+  --color-warning: #f59e0b;
+  --color-warning-bg: rgba(245, 158, 11, 0.1);
+  --color-error: #ef4444;
+  --color-error-bg: rgba(239, 68, 68, 0.1);
+  --color-info: #06b6d4;
+  --color-info-bg: rgba(6, 182, 212, 0.1);
+
+  /* ── 中性色（亮色主题）── */
+  --color-bg: #f8f9fc;
+  --color-bg-secondary: #ffffff;
+  --color-bg-tertiary: #f1f3f9;
+  --color-text: #1a1a2e;
+  --color-text-secondary: #5a5a72;
+  --color-text-muted: #8b8ba0;
+  --color-border: #e2e4ed;
+  --color-border-light: #eceef5;
+  --color-shadow: rgba(26, 26, 46, 0.06);
+  --color-shadow-strong: rgba(26, 26, 46, 0.12);
+
+  /* ── 聊天气泡专用 ── */
+  --bubble-user-bg: #4f6ef7;
+  --bubble-user-text: #ffffff;
+  --bubble-ai-bg: #ffffff;
+  --bubble-ai-text: #1a1a2e;
+
+  /* ── 侧栏 ── */
+  --sidebar-bg: #ffffff;
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 0px;
+
+  /* ── 字体 ── */
+  --font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Microsoft YaHei', 'Hiragino Sans GB', sans-serif;
+  --font-mono: 'SF Mono', 'Consolas', 'Monaco', 'Menlo', monospace;
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 22px;
+  --font-size-3xl: 28px;
+  --line-height: 1.6;
+
+  /* ── 间距 ── */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-base: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* ── 圆角 ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* ── 阴影 ── */
+  --shadow-sm: 0 1px 3px var(--color-shadow);
+  --shadow-md: 0 4px 12px var(--color-shadow);
+  --shadow-lg: 0 8px 28px var(--color-shadow-strong);
+
+  /* ── 过渡 ── */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ── 层级 ── */
+  --z-dropdown: 100;
+  --z-sidebar: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+}
+
+/* ─────────────────────────────────────
+   暗色主题
+   ───────────────────────────────────── */
+[data-theme="dark"] {
+  --color-bg: #0f1117;
+  --color-bg-secondary: #1a1c27;
+  --color-bg-tertiary: #232635;
+  --color-text: #e4e4eb;
+  --color-text-secondary: #9a9aab;
+  --color-text-muted: #6a6a7d;
+  --color-border: #2e303e;
+  --color-border-light: #252733;
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  --color-shadow-strong: rgba(0, 0, 0, 0.4);
+
+  --bubble-user-bg: #5b7afc;
+  --bubble-user-text: #ffffff;
+  --bubble-ai-bg: #1e2130;
+  --bubble-ai-text: #e4e4eb;
+
+  --sidebar-bg: #151721;
+}
