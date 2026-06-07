@@ -82,6 +82,12 @@ cd E:/AI课代表/backend
 "C:/Users/yt/.workbuddy/binaries/python/versions/3.13.12/python.exe" -m venv venv
 
 # 激活（Windows Git Bash）
+激活虚拟环境
+创建完成后，需要“进入”这个环境才能生效。不同系统的激活命令如下：
+Windows (CMD)：.\venv\Scripts\activate.bat
+Windows (PowerShell)：.\venv\Scripts\Activate.ps1
+Linux / macOS：source venv/bin/activate
+
 source venv/Scripts/activate
 ```
 
