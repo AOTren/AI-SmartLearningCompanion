@@ -3,8 +3,12 @@
 > **把 50+ 份杂乱课件，变成一个懂考点、会出题、能纠错的 24 小时 AI 私教。**
 
 基于 Coze 平台 RAG 技术的智能期末伴学应用 —— 前端对话界面 + FastAPI 中间层 + Coze 智能体。
-成功启用示例图
-![image-20260607215258433](C:\Users\yt\AppData\Roaming\Typora\typora-user-images\image-20260607215258433.png)
+
+## ✨ 效果演示
+
+![AI 期末私教运行截图](demo-screenshot.png)
+
+> 用户提问"数据库特点有哪些"，AI 以结构化 Markdown 格式流式输出答案，包含分类讲解与要点列表。
 
 ---
 
